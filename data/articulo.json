@@ -1,0 +1,39 @@
+{
+  "titulo": "AquaPica: reinventando el lavabo de tu baño con estilo y eficiencia",
+  "introduccion": "El cuarto de baño ya no es un espacio secundario. Con la línea AquaPica, presentamos lavabos modernos, resistentes y personalizables que elevan el diseño de tu hogar.",
+  "noticia": [
+    {
+      "titulo": "Tendencias en lavabos",
+      "contenido": [
+        "Minimalismo funcional: superficies lisas y ángulos suaves para limpieza fácil.",
+        "Materiales avanzados: cerámica densa, piedra sinterizada y resinas.",
+        "Tecnología integrada: LED, sensores táctiles y ahorro de agua."
+      ]
+    },
+    {
+      "titulo": "Materiales y personalización",
+      "contenido": [
+        "Cerámica Clásica: brillo blanco o negro, bordes redondeados.",
+        "SinterStone: textura mate, estilo natural.",
+        "Resina Urbana: colores vivos, superficie antibacteriana.",
+        "Opciones: grifería (monomando, cascada, mural) y desagüe (centrado o desplazado)."
+      ]
+    },
+    {
+      "titulo": "Instalación fácil y ecológica",
+      "contenido": [
+        "Sistema 'Click&Fit' sin obra.",
+        "Latiguillo eco que ahorra hasta un 30% de agua."
+      ]
+    },
+    {
+      "titulo": "Mantenimiento",
+      "contenido": [
+        "Limpieza con paño suave y detergente neutro.",
+        "Evitar productos abrasivos.",
+        "Revisar juntas anualmente."
+      ]
+    }
+  ],
+  "conclusion": "Descubre más en www.aquapica.com"
+}

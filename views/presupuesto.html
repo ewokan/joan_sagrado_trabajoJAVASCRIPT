@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaPica</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <a href="./index.html"><img src="/images/logo.png" alt="logo" id="logo"></a>
+            <nav>
+                <ul id="menu">
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/views/galeria.html">Galeria</a></li>
+                    <li><a href="#">Presupuesto</a></li>
+                    <li><a href="/views/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Formulario</h2>
+        <form id="formulario" method="post" action="procesar.php">
+            <fieldset>
+                <legend>Datos personales</legend>
+                    <div class="form-group form-control">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escribir nombre">
+                        <small>Error mensaje</small>
+                    </div>
+                    <div class="form-group form-control">
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Escriba su dirección">
+                        <small>Error mensaje</small>
+                    </div>
+                    <div class="form-group form-control">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="Escriba su teléfono">
+                        <small>Error mensaje</small>
+                    </div>
+                    <div class="form-group form-control">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="text" id="correo" name="correo" placeholder="Escriba su correo electrónico">
+                        <small>Error mensaje</small>
+                    </div>
+            </fieldset>
+            <div class="form-group">
+                <label for="seleccion-producto">Selecciona un producto</label>
+                <select name="seleccion-producto" id="seleccion-producto">
+                    <option value="">Selecciona un producto</option>
+                    <option value="Grace:95">Grace - 95€</option>
+                    <option value="Teardrop:115">Teardrop - 115€</option>
+                    <option value="Cream Rectilinear:119">Cream Rectilinear - 119€</option>
+                    <option value="Midnight Jet:195">Midnight Jet - 195€</option>
+                    <option value="Sunburst Orb:135">Sunburst Orb - 135€</option>
+                    <option value="Urban Slate:129">Urban Slate - 129€</option>
+                    <option value="Pure Oval Classic:149">Pure Oval Classic - 149€</option>
+                    <option value="Matrix Noir:115">Matrix Noir - 115€</option>
+                    <option value="Dual Harmony:109">Dual Harmony - 109€</option>
+                </select>
+                <button type="button" id="anadir-al-carrito">Añadir al carrito</button>
+            </div>
+            <div class="plazo-entrega">
+                <label for="plazo">Plazo de entrega (en días):</label>
+                <input type="number" id="plazo" name="plazo" min="1" max="365" placeholder="Ej: 30">
+            </div>
+            <div class="extras">
+                <h3>Extras</h3>
+                <label><input type="checkbox" class="checkbox-extra" value="Embalaje especial:2"> Embalaje especial 2€</label>
+                <label><input type="checkbox" class="checkbox-extra" value="Entrega rapida:10"> Entrega rápida 10€</label>
+            </div>
+            <div class="carrito">
+                <h3>Carrito</h3>
+                <div id="articulos-carrito"></div>
+                    <p class="total" id="total-final">Total: </p>
+            </div>
+            <div class="form-group form-control">
+                <label><input type="checkbox" name="privacidad" id="privacidad"> He leído la política de privacidad</label>
+                <small>Error mensaje</small>
+            </div>
+                <div class="form-group">
+                <input type="submit" id="enviar" value="Enviar">
+                <input type="reset" id="borrar" value="Borrar">
+            </div>
+        </form> 
+    </main>
+    <footer>
+        <div class="pie">
+            <div class="redes">
+                <a href="https://www.gmail.com"><img src="/images/gmail.png" alt="gmail"></a>
+                <a href="https://www.linkedin.es"><img src="/images/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.instagram.com"><img src="/images/instagram.png" alt="instagram"></a>
+                <a href="https://www.youtube.es"><img src="/images/youtube.png" alt="youtube"></a>
+                <a href="https://www.facebook.com"><img src="/images/facebook.png" alt="facebook"></a>
+            </div>
+                <p>&copy; AquaPica - 2025 | Todos los derechos reservados</p>
+        </div> 
+        <script src="/js/script.js"></script>
+    </footer>
+</body>
+</html>
