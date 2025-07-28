@@ -1,6 +1,6 @@
 /* ---------- Index --------- */
 
-fetch('../data/articulo.json')
+fetch('./data/articulo.json')
     .then(response => response.json())
     .then(data => {
         let contenido = '';
